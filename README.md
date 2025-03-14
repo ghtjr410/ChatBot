@@ -34,7 +34,7 @@
 ### 1️⃣ 프로젝트 클론
 ```sh
 git clone https://github.com/ghtjr410/ChatBot.git
-cd chatbot
+cd chatbot```
 
 ---
 
