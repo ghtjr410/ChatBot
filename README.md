@@ -37,7 +37,7 @@ git clone https://github.com/ghtjr410/ChatBot.git
 cd chatbot
 
 
-## 2️⃣ 환경 변수 설정
+### 2️⃣ 환경 변수 설정
 `.env` 또는 `application.properties`에 OpenAI API 키를 설정해야 합니다.  
 
 ```properties
@@ -46,13 +46,13 @@ openai.api.key=your-api-key
 openai.api.model=gpt-4o-mini
 openai.api.media-type=application/json; charset=UTF-8
 
-## 3️⃣ 애플리케이션 실행
+### 3️⃣ 애플리케이션 실행
 
-### ✅ PostgreSQL을 사용할 경우
+#### ✅ PostgreSQL을 사용할 경우
 ```sh
 docker-compose up -d  # PostgreSQL 실행
 ./gradlew bootRun
 
-## 🔑 API 문서 (Swagger)
-### 로컬 서버 실행 후 Swagger UI 접속
+### 🔑 API 문서 (Swagger)
+#### 로컬 서버 실행 후 Swagger UI 접속
 📌 http://localhost:4040/swagger-ui/index.html
