@@ -52,7 +52,7 @@
 #### ✅ PostgreSQL을 사용할 경우
 
 - docker-compose up -d  # PostgreSQL 실행
-- ./gradlew bootRun
+- mvn spring-boot:run
 
 ### 🔑 API 문서 (Swagger)
 #### 로컬 서버 실행 후 Swagger UI 접속
