@@ -33,8 +33,8 @@
 ## 🚀 실행 방법
 ### 1️⃣ 프로젝트 클론
 ```sh
-git clone https://github.com/your-username/chatbot-ai-service.git
-cd chatbot-ai-service
+git clone https://github.com/ghtjr410/ChatBot.git
+cd chatbot
 
 
 2️⃣ 환경 변수 설정
