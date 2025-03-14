@@ -32,9 +32,9 @@
 
 ## 🚀 실행 방법
 ### 1️⃣ 프로젝트 클론
-```sh
+
 git clone https://github.com/ghtjr410/ChatBot.git
-cd chatbot```
+cd chatbot
 
 ---
 
@@ -50,7 +50,7 @@ openai.api.media-type=application/json; charset=UTF-8
 ### 3️⃣ 애플리케이션 실행
 
 #### ✅ PostgreSQL을 사용할 경우
-```sh
+
 docker-compose up -d  # PostgreSQL 실행
 ./gradlew bootRun
 
